@@ -7,7 +7,11 @@ import mongoose from 'mongoose';
 //cors enables cross origin requests.
 import cors from 'cors';
 
+import postRoutes from './routes/posts.js';
+
 const app = express();
+
+app.use('/posts', postRoutes);
 
 //express.urelencoded parses the incoming requests with JSON payloads. it is a method built into express to recognize the incoming Request Object as string or arrays. 
 
