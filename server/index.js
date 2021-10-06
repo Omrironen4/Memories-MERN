@@ -1,4 +1,4 @@
-//   express, framework for creating the routing of the application.
+//   express framework for creating the routing of the application.
 import express from 'express';
 //body-parser which enables us to send post requests.
 import bodyParser from 'body-parser';
