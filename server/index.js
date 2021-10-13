@@ -9,7 +9,9 @@ import cors from 'cors';
 
 import postRoutes from './routes/posts.js';
 
+//Express basically helps you manage everything, from routes, to handling requests and views. Redis is a key/value store -- commonly used for sessions and caching in Node. js applications
 const app = express();
+
 
 app.use('/posts', postRoutes);
 
