@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 //cors enables cross origin requests.
 import cors from 'cors';
 
-import postRoutes from './routes/posts.js';
+import postRoutes from './Controllers/posts.js';
 
 //Express basically helps you manage everything, from routes, to handling requests and views. Redis is a key/value store -- commonly used for sessions and caching in Node. js applications
 const app = express();
